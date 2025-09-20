@@ -1,5 +1,5 @@
 import { Container} from "react-bootstrap";
-import "../../css/Desktop.css";
+// import "../../css/Desktop.css";
 import BannerArea from "./BannerArea";
 import Points from "./Points";
 import TectSection from "./TextSection";

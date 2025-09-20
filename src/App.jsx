@@ -2,6 +2,7 @@ import React from 'react';
 import useDeviceDetect from './useDeviceDetect';
 import DesktopComponent from "./components/Desktop/DesktopComponent";
 import MobileComponent from "./components/Mobile/MobileComponent";
+import "./css/style.css";
 
 function App() {
 
