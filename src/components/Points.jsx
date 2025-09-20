@@ -1,6 +1,6 @@
-import One from "../../assets/number/1.png";
-import Two from "../../assets/number/2.svg";
-import Tree from "../../assets/number/3.svg";
+import One from "../assets/number/1.png";
+import Two from "../assets/number/2.svg";
+import Tree from "../assets/number/3.svg";
 
 
 function Points() {

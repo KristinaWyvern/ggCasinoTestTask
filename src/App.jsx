@@ -1,20 +1,21 @@
-import React from 'react';
-import useDeviceDetect from './useDeviceDetect';
-import DesktopComponent from "./components/Desktop/DesktopComponent";
-import MobileComponent from "./components/Mobile/MobileComponent";
+import { Container} from "react-bootstrap";
+import BannerArea from "./components/BannerArea";
+import Points from "./components/Points";
+import TectSection from "./components/TextSection";
+import CardsSection from "./components/CardsSection";
 import "./css/style.css";
 
 function App() {
 
-  const { isMobile } = useDeviceDetect();
-
   return (
+
+    <Container>      
+      <BannerArea />
+	    <Points />
+	    <TectSection />
+	    <CardsSection />
+    </Container>
     
-    <>
-      {
-        isMobile ? <MobileComponent /> : <DesktopComponent />
-      }
-    </>
   )
 }
 
