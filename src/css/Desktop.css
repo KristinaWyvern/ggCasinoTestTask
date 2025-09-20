@@ -1,0 +1,156 @@
+html {
+  --section-background-color: linear-gradient(
+    
+    #0F0A2D,    
+    #312193
+  );
+
+}
+body{
+  background: url(../assets/desktop/Layer_574.png) top 39.375rem right 0rem no-repeat,
+              url(../assets/desktop/Layer_576.png) top 54rem right 25.563rem no-repeat,
+              url(../assets/desktop/Layer_577.png) top 64.375rem right 2.813rem no-repeat,
+              url(../assets/desktop/Layer_575.png) top 120.063rem left -0.875rem no-repeat,
+              var(--section-background-color);
+  max-width: 160rem;
+}
+.bannerArea{ 
+  padding: 0rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  height: 27.5rem;
+  background-size: 100% 100%;
+  background-image:linear-gradient( #0f0a2d00 70%, #0F0A2D 100%), url(../assets/desktop/Приветственный_бонус_– до_220_фриспинов_+100_BYN_новичкам!.png);  
+  background-position: center;  
+  background-repeat: no-repeat;  
+
+}
+
+
+.points{
+  padding: 7.5rem 0rem 5.625rem 0rem;
+  display:flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: no-wrap;
+}
+
+.card{
+	min-height:4.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.938rem;
+	height:2.313rem;
+  width: 100%;
+  max-width: 74.5rem; 
+  border-radius: 0.938rem;
+  background-image: linear-gradient(to right, rgba(27, 57, 86, 0.4) 0%, rgba(59, 126, 188, 0.4) 100%);
+  
+}
+
+.number{
+	padding: 0rem 0rem 0rem 0rem;
+	margin: 3.75rem 2.5rem 3.75rem 3.75rem;
+}
+.pointsText{
+  margin: 0rem 0rem 0rem 0.75rem;
+  font: bold 1.25rem Halvar Breitschrift;
+  color:#FFFFFF;
+  width: 100%;
+	padding: 0rem 30rem 0rem 0rem;
+}
+
+#tag{
+  width: 11rem;
+  height: 3.25rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 1.25rem 0rem 0rem 0rem;
+  background: #FE0155;
+  color: #FFFFFF;
+	font:bold 1.125rem Halvar Mittelschrift;
+	text-align:center;
+  border: none;
+  border-radius: 0.75rem;
+}
+
+.textSection{
+  display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: no-wrap;
+  margin: 0rem 7.125rem 7.5rem 10rem;
+  flex-direction:column;
+}
+
+.textRow{
+  min-width: 20.25rem;
+	min-height: 3.25rem;
+	display:flex;
+	align-items:center;
+	justify-content:flex-start;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	margin: 0rem 0rem 0rem 0rem;
+	border-color:rgba(255, 255, 255, 0.12);
+	border-width: 0rem 0rem 0.125rem 0rem;
+	border-style:solid;
+  width: 100%;
+
+}
+
+.divIcon{
+ margin-top: 1.25rem ;
+ width: 1.5rem;
+}
+.icon{
+  height: 1.5rem;
+  width: 1.5rem;
+  color:rgba(255, 255, 255, 0.6);
+}
+
+.rowItem{
+  margin: 1.25rem 0rem 0.625rem 1.25rem; 
+  padding: 1.25rem 0rem 1.25rem 1.25rem; 
+	font: bold 1.25rem Halvar Mittelschrift;
+	color: rgba(255, 255, 255, 0.6);
+  line-height: 2rem;
+  width: 100%;
+}
+
+.cardsSection{
+  margin: 0rem 7.125rem 6.25rem 7.125rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.cardRow{
+  min-width: 6.25rem;
+	min-height: 6.25rem;
+	background-image:linear-gradient(36deg,rgba(27, 57, 86, 0.6) 0%,rgba(18, 23, 56, 0.6) 100%);
+	border-radius: 0.75rem;
+	margin: 0rem 0rem 3.5rem 0rem;
+}
+
+.cardheard{
+    
+  padding: 2rem 0rem 0rem 2rem;
+  color:#ffffff;
+  font:600 1.25rem Halvar Breitschrift; 
+  height: 1.563rem;
+}
+
+.cardList{
+  margin:0rem 0rem 0rem 1.25rem;
+	padding:1.25rem 1.25rem 1.25rem 2.5rem;
+	color:rgba(255, 255, 255, 0.6);
+	font: 1.125rem/120% Halvar Mittelschrift;
+}
+
+.cardText{
+  margin: 0rem 0rem 0.625rem 2rem; 
+  padding-bottom: 1.25rem;
+  font: 1.125rem/120% Halvar Mittelschrift;
+}
