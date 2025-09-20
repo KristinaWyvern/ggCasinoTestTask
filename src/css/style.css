@@ -30,6 +30,24 @@ html {
 
     }
 
+    .bannerText1{
+        font-size:4.5rem; 
+        margin:10rem 0rem 0rem 6.25rem;
+        color:#ffffff;
+        font-family:  Breitschrift;
+        font-weight: bold;
+    }
+
+    .bannerText2{
+        font-size:1.5rem; 
+        margin:0.625rem 0rem 0rem 6.25rem;
+        color:#ffffff99;
+        font-family:  Breitschrift;
+        font-weight: bold;
+    }
+
+    
+
 
     .points{
         padding: 7.5rem 0rem 5.625rem 0rem;
@@ -179,6 +197,22 @@ html {
         background-position: center;  
         background-repeat: no-repeat;
 
+    }
+
+    .bannerText1{
+        font-size: 2rem; 
+        margin: 3.5rem 0rem 0rem 1rem;
+        color:#ffffff;
+        font-family:  Breitschrift;
+        font-weight: bold;
+    }
+
+    .bannerText2{
+        font-size:1rem; 
+        margin:1.5rem 0rem 0rem 1rem;
+        color:#ffffff99;
+        font-family:  Breitschrift;
+        font-weight: bold;
     }
 
     .points{
