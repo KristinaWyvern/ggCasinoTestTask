@@ -7,6 +7,7 @@ html {
 
 }
 
+/* Desktop */
 @media (min-width: 768px) {
 
     body{
@@ -64,7 +65,7 @@ html {
         font: bold 1.25rem Halvar Breitschrift;
         color:#FFFFFF;
         width: 100%;
-        padding: 0rem 30rem 0rem 0rem;
+        padding: 0rem 20rem 0rem 0rem;
     }
 
     #tag{
@@ -160,7 +161,9 @@ html {
 
 }
 
-@media (max-width: 767px) {
+
+/* Mobile */
+@media (max-width: 768px) {
     body{
         background: #0F0A2D;
     }

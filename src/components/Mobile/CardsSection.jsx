@@ -40,7 +40,7 @@ function CardsSection() {
 					<li>
 						Отыгрыш доступен игроку в течение 2 дней после подтверждения.
 					</li>
-					<li min-height="40px" text-align="left" position="static">
+					<li min-height="2.5rem" text-align="left" position="static">
 						Бонус можно отыграть во всех слот-играх, кроме игр провайдеров Evoplay, Retro Gaming, Booming Games и игр Solar King, Solar Temple, Solar Queen провайдера Playson.
 					</li>
 					<li>
